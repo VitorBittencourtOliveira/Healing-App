@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Healing",
+    "slug": "Healing-App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/healing-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/healing-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/healing-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.vitortte.HealingApp"
+    },
+    "web": {
+      "favicon": "./assets/healing-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ec43716c-e7cc-4f31-a850-9e3ec54427f0"
+      }
+    }
+  }
+}
